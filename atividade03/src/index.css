@@ -12,19 +12,17 @@
 
 .header {
   background: #8b0000;
-  height: 20px;
+  height: 2rem;
 }
 
 .nav {
   background: #cd5c5c;
-  height: 60px;
+  height: 6rem;
 }
 
 .content {
   display: flex;
   flex: 1;
-  gap: 10px;
-  padding: 10px;
 }
 
 .main {
@@ -50,5 +48,30 @@
 
 .footer {
   background: #4b0000;
-  height: 20px;
+  height: 5rem;
+  margin: 1rem;
+}
+.content {
+  display: flex;
+  flex: 1;
+  gap: 2rem;
+  padding: 30px 15px;
+  margin: 0 3rem;
+}
+
+.main {
+  flex: 1;
+  background: #b22222;
+}
+
+.sidebar {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 50px;
+}
+
+#parteSuperior {
+  margin: 1rem;
 }

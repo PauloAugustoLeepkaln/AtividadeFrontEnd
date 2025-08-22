@@ -7,8 +7,10 @@ import Footer from "./FooterA";
 function App() {
   return (
     <div className="app">
-      <Header />
-      <Nav />
+      <div id="parteSuperior">
+        <Header />
+        <Nav />
+      </div>
       <div className="content">
         <Principal />
         <Sidebar />
